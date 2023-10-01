@@ -1,0 +1,41 @@
+.header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 1rem;
+    background-color: #0d1117;
+    
+    nav {
+        display: flex;
+        gap: 1rem;
+
+        button {
+            background-color: transparent;
+            border: solid 1px #fff;
+            padding: 0.25rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1.2rem;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                color: #ccc;
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 1.2rem;
+                transition: all 0.2s ease-in-out;
+    
+                &:hover {
+                    color: #ccc;
+                }
+            }
+        }
+
+    }
+}

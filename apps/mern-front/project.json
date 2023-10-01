@@ -24,7 +24,8 @@
       "executor": "@nx/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "mern-front:build"
+        "buildTarget": "mern-front:build",
+        "proxyConfig": "apps/mern-front/proxy.config.json"
       },
       "configurations": {
         "development": {
